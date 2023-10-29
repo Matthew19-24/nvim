@@ -5,5 +5,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'weirongxu/plantuml-previewer.vim'
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 	Plug 'dense-analysis/ale'
+	Plug 'preservim/nerdtree'
 
 	call plug#end()
