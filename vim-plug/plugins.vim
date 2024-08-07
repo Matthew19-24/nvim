@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+	Plug 'tpope/vim-fugitive'
 	Plug 'aklt/plantuml-syntax'
 	Plug 'tyru/open-browser.vim'
 	Plug 'weirongxu/plantuml-previewer.vim'
